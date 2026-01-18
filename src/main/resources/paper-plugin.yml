@@ -1,0 +1,8 @@
+name: Makoto
+version: '1.0-SNAPSHOT'
+main: me.akitsuki.makoto.Makoto
+api-version: '1.21'
+prefix: [ Makoto ]
+authors: [ 秋月ナギ ]
+description: A simple plugin offers /back command
+website: https://www.akitsuki.me
