@@ -20,7 +20,7 @@ public final class Makoto extends JavaPlugin {
             int commandCount = 0;
 
             // Register /back command
-            BackCommand backCommand = new BackCommand();
+            BackCommand backCommand = new BackCommand(this);
 
             commands.register("back", "Back to previous location", backCommand);
             commandCount += 1;
