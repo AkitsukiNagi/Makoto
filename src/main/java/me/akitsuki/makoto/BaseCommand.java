@@ -16,15 +16,15 @@ public abstract class BaseCommand implements BasicCommand {
     }
 
     @Override
-    public @Nullable String permission() {
-        return this.permission;
+    public @NotNull String permission() {
+        return permission == null ? "" : permission;
     }
 
     @Override
-    public @NotNull Collection<String> suggest(@NotNull CommandSourceStack source, @NotNull String[] args) {
+    public @NotNull Collection<String> suggest(@NotNull CommandSourceStack source, @Nullable String[] args) {
         return List.of();
     }
 
     @Override
-    public abstract void execute(@NotNull CommandSourceStack source, @NotNull String[] args);
+    public abstract void execute(@NotNull CommandSourceStack source, @Nullable String[] args);
 }
