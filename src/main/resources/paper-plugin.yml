@@ -1,5 +1,5 @@
 name: Makoto
-version: '1.0-SNAPSHOT'
+version: '1.1'
 main: me.akitsuki.makoto.Makoto
 api-version: '1.21'
 prefix: [ Makoto ]
